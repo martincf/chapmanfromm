@@ -1,0 +1,155 @@
+# SEASCAPES
+- src: seascape08.jpg
+  alt: "Seascape 08: In Training, West Kirby"
+  category: seascape
+  home: 1
+  aspect: landscape
+- src: seascape14.jpg
+  alt: "Seascape 14: Marine Water, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape01.jpg
+  alt: "Seascape 01: Marine Walk, West Kirby"
+  category: seascape
+  home: 1
+  aspect: landscape
+- src: seascape09.jpg
+  alt: "Seascape 09: Perch Rock Lighthouse, New Brighton"
+  category: seascape
+  home: 0
+  aspect: portrait
+- src: seascape02.jpg
+  alt: "Seascape 02: Marine Water, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape03.jpg
+  alt: "Seascape 03: Marine Walk, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape04.jpg
+  alt: "Seascape 04: Marine Walk, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape05.jpg
+  alt: "Seascape 05: Marine Water, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape06.jpg
+  alt: "Seascape 06: Marine Sunset, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape07.jpg
+  alt: "Seascape 07: Marine Sunset, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape10.jpg
+  alt: "Seascape 10: River Walk, New Brighton"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape11.jpg
+  alt: "Seascap 11: Perch Rock Lighthouse, New Brighton"
+  category: seascape
+  home: 0
+  aspect: landscape
+# - src: seascape12.jpg
+#   alt: "Seascape 12: Wilson Trophy Race, West Kirby"
+#   category: seascape
+#   home: 1
+#   aspect: portrait
+- src: seascape13.jpg
+  alt: "Seascape 13: Marine Walk"
+  category: landscape
+  home: 0
+- src: seascape15.jpg
+  alt: "Seascape 15: Jetty, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+
+# STREETSCAPE
+- src: streetscape01.jpg
+  alt: "Streetscape 01: Tower Bridge, London"
+  category: streetscape
+  home: 1
+  aspect: landscape
+- src: streetscape02.jpg
+  alt: "Streetscape 02: Mann Island, Liverpool"
+  category: streetscape
+  home: 0
+  aspect: landscape
+- src: streetscape10.jpg
+  alt: "Streetscape 10: Morris Dancing"
+  category: streetscape
+  home: 0
+  aspect: landscape
+
+- src: streetscape05.jpg
+  alt: "Streetscape 05: The Watcher, Liverpool"
+  category: streetscape
+  home: 0
+  aspect: portrait
+- src: streetscape03.jpg
+  alt: "Streetscape 03: Hackney Empire, London"
+  category: streetscape
+  home: 0
+  aspect: landscape
+- src: streetscape06.jpg
+  alt: "Streetscape 06: Hoxton, London"
+  category: streetscape
+  home: 0
+  aspect: landscape
+- src: streetscape07.jpg
+  alt: "Streetscape 07: Hoxton, London"
+  category: streetscape
+  home: 1
+  aspect: landscape
+- src: streetscape04.jpg
+  alt: "Streetscape 04: Radio City Tower, Liverpool"
+  category: streetscape
+  home: 0
+  aspect: portrait
+- src: streetscape08.jpg
+  alt: "Streetscape 08: Hoxton, London"
+  category: streetscape
+  home: 1
+  aspect: landscape
+- src: streetscape09.jpg
+  alt: "Streetscape 09: Cyclist, Old Street, London"
+  category: streetscape
+  home: 0
+  aspect: portrait
+
+# PERSONAL
+- src: personal01.jpg
+  alt: "Personal 01: Dress Up, Brikenhead Priory"
+  category: personal
+  home: 0
+  aspect: landscape
+- src: personal02.jpg
+  alt: "Personal 02: Trumpeteer"
+  category: personal
+  home: 0
+  aspect: landscape
+- src: personal03.jpg
+  alt: "Personal 03: Homemade Mask"
+  category: personal
+  home: 0
+  aspect: landscape
+- src: personal04.jpg
+  alt: "Personal 04: Dance"
+  category: personal
+  home: 1
+  aspect: portrait
+- src: personal05.jpg
+  alt: "Personal 05: Bathtime"
+  category: personal
+  home: 1
+  aspect: landscape

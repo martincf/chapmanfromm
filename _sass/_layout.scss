@@ -1,0 +1,15 @@
+.wrap {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  @include cf;
+  @include mq(small) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  @include mq(narrow) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

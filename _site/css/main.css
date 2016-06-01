@@ -1,0 +1,163 @@
+/* Base */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+* {
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+  margin: 0;
+  padding: 0; }
+
+main,
+li {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: inherit;
+  text-rendering: optimizeLegibility; }
+
+strong {
+  font-weight: bold; }
+
+a,
+button {
+  transition: .3s;
+  color: inherit; }
+
+a {
+  text-decoration: none; }
+
+button {
+  overflow: visible;
+  font: inherit;
+  cursor: pointer;
+  letter-spacing: inherit;
+  border: 0;
+  background: none;
+  -webkit-font-smoothing: inherit; }
+
+::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+:focus {
+  outline: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
+.wrap {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px; }
+  .wrap:before, .wrap:after {
+    content: " ";
+    display: table; }
+  .wrap:after {
+    clear: both; }
+  @media (max-width: 800px) {
+    .wrap {
+      padding-left: 25px;
+      padding-right: 25px; } }
+  @media (max-width: 480px) {
+    .wrap {
+      padding-left: 10px;
+      padding-right: 10px; } }
+
+body {
+  font-family: "Work Sans", Helvetica, sans-serif;
+  color: #1c1c1c;
+  background-color: white; }
+
+h1, h2 {
+  font-size: 22px; }
+
+a {
+  transition: all 0.2s ease; }
+
+a:link, a:visited {
+  color: #1c1c1c;
+  text-decoration: none; }
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: #4f4f4f; }
+
+img {
+  max-width: 100%; }
+
+h1 {
+  margin-top: 115px; }
+  @media (max-width: 480px) {
+    h1 {
+      margin-top: 50px; } }
+
+h2 {
+  margin-bottom: 80px; }
+  @media (max-width: 480px) {
+    h2 {
+      margin-bottom: 40px; } }
+
+nav {
+  margin-bottom: 125px; }
+  @media (max-width: 480px) {
+    nav {
+      margin-bottom: 50px; } }
+
+.page-link:after {
+  content: ", "; }
+
+.page-link:last-of-type:after {
+  content: "."; }
+
+figure {
+  margin-bottom: 50px;
+  box-sizing: border-box; }
+
+figcaption {
+  font-size: 11px;
+  color: #9c9c9c;
+  text-transform: uppercase;
+  margin-top: 10px; }
+
+.portrait {
+  float: left;
+  max-width: 50%;
+  padding-right: 50px; }
+
+.portrait + figure, .portrait + figure + figure {
+  float: left;
+  max-width: 50%; }
+
+.site-footer {
+  padding: 0 0 50px;
+  clear: both; }
+
+.copyright span:after {
+  content: "|";
+  color: #9c9c9c;
+  margin: 0 .25em 0 .5em; }
+
+.active:link, .active:visited {
+  text-decoration: underline; }

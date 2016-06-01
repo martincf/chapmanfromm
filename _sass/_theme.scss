@@ -1,0 +1,79 @@
+body {
+  font-family: $bodyfont, Helvetica, sans-serif;
+  color: $brandcolor01;
+  background-color: white;
+}
+h1, h2 {
+  font-size: 22px;
+}
+a {
+  @include trans-ease;
+}
+a:link, a:visited {
+  color: $brandcolor01;
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: underline;
+  color: lighten($brandcolor01, 20%);
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  margin-top: 115px;
+   @include mq(narrow) {
+     margin-top: 50px;
+   }
+}
+h2 {
+  margin-bottom: 80px;
+  @include mq(narrow) {
+    margin-bottom: 40px;
+  }
+}
+nav {
+  margin-bottom: 125px;
+  @include mq(narrow) {
+    margin-bottom: 50px;
+  }
+}
+
+.page-link:after {
+  content: ", ";
+}
+.page-link:last-of-type:after {
+  content: ".";
+}
+figure {
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+figcaption {
+  font-size: 11px;
+  color: lighten($brandcolor01, 50%);
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.portrait {
+  float: left;
+  max-width: 50%;
+  padding-right: 50px;
+}
+.portrait + figure, .portrait + figure + figure {
+  float: left;
+  max-width: 50%;
+}
+
+.site-footer {
+  padding: 0 0 50px;
+  clear: both;
+}
+.copyright span:after {
+  content: "|";
+  color: lighten($brandcolor01, 50%);
+  margin: 0 .25em 0 .5em;
+}
+.active:link, .active:visited {
+  text-decoration: underline;
+}
