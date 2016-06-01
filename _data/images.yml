@@ -80,6 +80,11 @@
   category: streetscape
   home: 1
   aspect: landscape
+- src: streetscape11.jpg
+  alt: "Streetscape 11: Shoreditch, London"
+  category: streetscape
+  home: 0
+  aspect: portrait
 - src: streetscape02.jpg
   alt: "Streetscape 02: Mann Island, Liverpool"
   category: streetscape
@@ -90,7 +95,6 @@
   category: streetscape
   home: 0
   aspect: landscape
-
 - src: streetscape05.jpg
   alt: "Streetscape 05: The Watcher, Liverpool"
   category: streetscape
