@@ -59,20 +59,37 @@ figcaption {
   float: left;
   max-width: 50%;
   padding-right: 50px;
+  @include mq(narrow) {
+    float: none;
+    max-width: 100%;
+    padding-right: 0;
+  }
 }
 .portrait + figure, .portrait + figure + figure {
   float: left;
   max-width: 50%;
+  @include mq(narrow) {
+    float: none;
+    max-width: 100%;
+  }
 }
 
 .site-footer {
   padding: 0 0 50px;
   clear: both;
 }
+.site-footer span {
+  @include mq(narrow) {
+    display: block;
+  }
+}
 .copyright span:after {
   content: "|";
   color: lighten($brandcolor01, 50%);
   margin: 0 .25em 0 .5em;
+  @include mq(narrow) {
+    content: none;
+  }
 }
 .active:link, .active:visited {
   text-decoration: underline;

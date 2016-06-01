@@ -145,19 +145,35 @@ figcaption {
   float: left;
   max-width: 50%;
   padding-right: 50px; }
+  @media (max-width: 480px) {
+    .portrait {
+      float: none;
+      max-width: 100%;
+      padding-right: 0; } }
 
 .portrait + figure, .portrait + figure + figure {
   float: left;
   max-width: 50%; }
+  @media (max-width: 480px) {
+    .portrait + figure, .portrait + figure + figure {
+      float: none;
+      max-width: 100%; } }
 
 .site-footer {
   padding: 0 0 50px;
   clear: both; }
 
+@media (max-width: 480px) {
+  .site-footer span {
+    display: block; } }
+
 .copyright span:after {
   content: "|";
   color: #9c9c9c;
   margin: 0 .25em 0 .5em; }
+  @media (max-width: 480px) {
+    .copyright span:after {
+      content: none; } }
 
 .active:link, .active:visited {
   text-decoration: underline; }
