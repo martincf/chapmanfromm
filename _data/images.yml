@@ -7,12 +7,12 @@
 - src: seascape14.jpg
   alt: "Seascape 14: Marine Water, West Kirby"
   category: seascape
-  home: 0
+  home: 1
   aspect: landscape
 - src: seascape01.jpg
   alt: "Seascape 01: Marine Walk, West Kirby"
   category: seascape
-  home: 1
+  home: 0
   aspect: landscape
 - src: seascape09.jpg
   alt: "Seascape 09: Perch Rock Lighthouse, New Brighton"
@@ -73,6 +73,11 @@
   category: seascape
   home: 0
   aspect: landscape
+- src: seascape16.jpg
+  alt: "Seascape 16: Boating Crews Only, West Kirby"
+  category: seascape
+  home: 1
+  aspect: landscape
 
 # STREETSCAPE
 - src: streetscape01.jpg
@@ -96,7 +101,7 @@
   home: 0
   aspect: landscape
 - src: streetscape05.jpg
-  alt: "Streetscape 05: The Watcher, Liverpool"
+  alt: "Streetscape 05: The Watchers, Liverpool"
   category: streetscape
   home: 0
   aspect: portrait
