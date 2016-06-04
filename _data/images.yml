@@ -85,6 +85,11 @@
   category: streetscape
   home: 1
   aspect: landscape
+- src: streetscape12.jpg
+  alt: "Streetscape 12: Busker, Liverpool"
+  category: streetscape
+  home: 0
+  aspect: landscape
 - src: streetscape11.jpg
   alt: "Streetscape 11: Shoreditch, London"
   category: streetscape
@@ -162,3 +167,8 @@
   category: personal
   home: 1
   aspect: landscape
+- src: personal06.jpg
+  alt: "Personal 06: Wink"
+  category: personal
+  home: 0
+  aspect: portrait
