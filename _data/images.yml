@@ -83,6 +83,27 @@
   category: seascape
   home: 1
   aspect: landscape
+- src: seascape18.jpg
+  alt: "Seascape 18: Amphibious Vehicle, West Kirby"
+  category: seascape
+  home: 1
+  aspect: landscape
+- src: seascape19.jpg
+  alt: "Seascape 19: Jetty at Sunset, West Kirby"
+  category: seascape
+  home: 0
+  aspect: landscape
+- src: seascape20.jpg
+  alt: "Seascape 20: Flooded Marine Path, West Kirby"
+  category: seascape
+  home: 1
+  aspect: landscape
+- src: seascape21.jpg
+  alt: "Seascape 21: Albert Dock, Liverpool"
+  category: seascape
+  home: 0
+  aspect: landscape
+
 # STREETSCAPE
 - src: streetscape01.jpg
   alt: "Streetscape 01: Tower Bridge, London"
@@ -92,7 +113,12 @@
 - src: streetscape12.jpg
   alt: "Streetscape 12: Busker, Liverpool"
   category: streetscape
-  home: 0
+  home: 1
+  aspect: landscape
+- src: streetscape13.jpg
+  alt: "Streetscape 13: Victoria Street, Liverpool"
+  category: streetscape
+  home: 1
   aspect: landscape
 - src: streetscape11.jpg
   alt: "Streetscape 11: Shoreditch, London"
@@ -129,6 +155,11 @@
   category: streetscape
   home: 1
   aspect: landscape
+- src: streetscape14.jpg
+  alt: "Streetscape 14: Mann Island, Liverpool"
+  category: streetscape
+  home: 0
+  aspect: landscape
 - src: streetscape04.jpg
   alt: "Streetscape 04: Radio City Tower, Liverpool"
   category: streetscape
@@ -154,25 +185,30 @@
 - src: personal02.jpg
   alt: "Personal 02: Trumpeteer"
   category: personal
-  home: 0
+  home: 1
   aspect: landscape
 - src: personal03.jpg
   alt: "Personal 03: Homemade Mask"
   category: personal
-  home: 0
+  home: 1
   aspect: landscape
 - src: personal04.jpg
   alt: "Personal 04: Dance"
   category: personal
-  home: 1
+  home: 0
+  aspect: portrait
+- src: personal07.jpg
+  alt: "Personal 07: Looking up"
+  category: personal
+  home: 0
+  aspect: portrait
+- src: personal06.jpg
+  alt: "Personal 06: Wink"
+  category: personal
+  home: 0
   aspect: portrait
 - src: personal05.jpg
   alt: "Personal 05: Bathtime"
   category: personal
   home: 1
   aspect: landscape
-- src: personal06.jpg
-  alt: "Personal 06: Wink"
-  category: personal
-  home: 0
-  aspect: portrait

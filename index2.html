@@ -1,0 +1,12 @@
+---
+layout: default2
+---
+<div class="hometest">
+{% for homeimage in site.data.images %}
+{% if homeimage.home > 0 %}
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/{{ homeimage.src }}" alt="{{ homeimage.alt }}" />
+</figure>
+{% endif %}
+{% endfor %}
+</div>

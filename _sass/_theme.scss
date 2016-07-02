@@ -96,3 +96,37 @@ figcaption {
 .active:link, .active:visited {
   text-decoration: underline;
 }
+
+
+// HOME LAYOUT 2 TEST
+// body { margin: 0; background: #333; }
+.hometest {
+  // padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.hometest figure {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 400px;
+  margin: .5vw;
+}
+.hometest div img {
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+@media screen and (max-width: 400px) {
+  .hometest figure { margin: 0; }
+  .hometest { padding: 0; }
+
+}
