@@ -103,6 +103,16 @@
   category: seascape
   home: 0
   aspect: landscape
+- src: seascape22.jpg
+  alt: "Seascape 22: Marine Lake, West Kirby (35mm film)"
+  category: seascape
+  home: 0
+  aspect: portrait
+- src: seascape23.jpg
+  alt: "Seascape 23: Wash, West Kirby (35mm film)"
+  category: seascape
+  home: 0
+  aspect: landscape
 
 # STREETSCAPE
 - src: streetscape01.jpg
@@ -175,6 +185,23 @@
   category: streetscape
   home: 0
   aspect: portrait
+- src: streetscape15.jpg
+  alt: "Streetscape 15: Steps, London (35mm film)"
+  category: streetscape
+  home: 0
+  aspect: portrait
+- src: streetscape16.jpg
+  alt: "Streetscape 16: Reflection, Liverpool"
+  category: streetscape
+  home: 1
+  aspect: portrait
+
+- src: streetscape17.jpg
+  alt: "Streetscape 17: Rebel, London (35mm film)"
+  category: streetscape
+  home: 1
+  aspect: landscape
+
 
 # PERSONAL
 - src: personal01.jpg
@@ -209,6 +236,11 @@
   aspect: portrait
 - src: personal05.jpg
   alt: "Personal 05: Bathtime"
+  category: personal
+  home: 1
+  aspect: landscape
+- src: personal08.jpg
+  alt: "Personal 08: Electroboy (35mm film)"
   category: personal
   home: 1
   aspect: landscape
