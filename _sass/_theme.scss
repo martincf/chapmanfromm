@@ -1,7 +1,9 @@
 body {
   font-family: $bodyfont, Helvetica, sans-serif;
+  line-height: $lh;
   color: $brandcolor01;
   background-color: white;
+
 }
 h1, h2 {
   font-size: 22px;
@@ -59,21 +61,72 @@ figcaption {
   float: left;
   max-width: 50%;
   padding-right: 50px;
+  @include mq(narrow) {
+    float: none;
+    max-width: 100%;
+    padding-right: 0;
+  }
 }
 .portrait + figure, .portrait + figure + figure {
   float: left;
   max-width: 50%;
+  @include mq(narrow) {
+    float: none;
+    max-width: 100%;
+  }
 }
 
 .site-footer {
   padding: 0 0 50px;
   clear: both;
 }
+.site-footer span {
+  @include mq(narrow) {
+    display: block;
+  }
+}
 .copyright span:after {
   content: "|";
   color: lighten($brandcolor01, 50%);
   margin: 0 .25em 0 .5em;
+  @include mq(narrow) {
+    content: none;
+  }
 }
 .active:link, .active:visited {
   text-decoration: underline;
+}
+
+
+// HOME LAYOUT 2 TEST
+// body { margin: 0; background: #333; }
+.hometest {
+  // padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.hometest figure {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 300px;
+  margin: .5vw;
+}
+.hometest div img {
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+@media screen and (max-width: 400px) {
+  .hometest figure { margin: 0; }
+  .hometest { padding: 0; }
+
 }

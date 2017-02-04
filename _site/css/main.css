@@ -87,6 +87,7 @@ img {
 
 body {
   font-family: "Work Sans", Helvetica, sans-serif;
+  line-height: 1.4;
   color: #1c1c1c;
   background-color: white; }
 
@@ -145,19 +146,66 @@ figcaption {
   float: left;
   max-width: 50%;
   padding-right: 50px; }
+  @media (max-width: 480px) {
+    .portrait {
+      float: none;
+      max-width: 100%;
+      padding-right: 0; } }
 
 .portrait + figure, .portrait + figure + figure {
   float: left;
   max-width: 50%; }
+  @media (max-width: 480px) {
+    .portrait + figure, .portrait + figure + figure {
+      float: none;
+      max-width: 100%; } }
 
 .site-footer {
   padding: 0 0 50px;
   clear: both; }
 
+@media (max-width: 480px) {
+  .site-footer span {
+    display: block; } }
+
 .copyright span:after {
   content: "|";
   color: #9c9c9c;
   margin: 0 .25em 0 .5em; }
+  @media (max-width: 480px) {
+    .copyright span:after {
+      content: none; } }
 
 .active:link, .active:visited {
   text-decoration: underline; }
+
+.hometest {
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px; }
+
+.hometest figure {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 300px;
+  margin: .5vw; }
+
+.hometest div img {
+  width: 100%;
+  height: auto;
+  max-height: 100px; }
+
+@media screen and (max-width: 400px) {
+  .hometest figure {
+    margin: 0; }
+
+  .hometest {
+    padding: 0; } }

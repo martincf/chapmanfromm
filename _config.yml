@@ -11,7 +11,7 @@ email: martin@chapmanfromm.com
 description: > # this means to ignore newlines until "baseurl:"
   Photography by Martin Chapman Fromm.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.chapmanfromm.com" # the base hostname & protocol for your site
+url: "www.chapmanfromm.com" # the base hostname & protocol for your site
 twitter_username: mcf
 
 # Build settings
