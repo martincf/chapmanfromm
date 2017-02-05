@@ -49,11 +49,11 @@
 #   category: seascape
 #   home: 0
 #   aspect: landscape
-- src: seascape10.jpg
-  alt: "Seascape 10: River Walk, New Brighton"
-  category: seascape
-  home: 0
-  aspect: landscape
+# - src: seascape10.jpg
+#   alt: "Seascape 10: River Walk, New Brighton"
+#   category: seascape
+#   home: 0
+#   aspect: landscape
 # - src: seascape11.jpg
 #   alt: "Seascap 11: Perch Rock Lighthouse, New Brighton"
 #   category: seascape
