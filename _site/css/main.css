@@ -156,6 +156,9 @@ figcaption {
 .portrait + .portrait {
   padding-left: 25px;
   padding-right: 0; }
+  @media (max-width: 480px) {
+    .portrait + .portrait {
+      padding-left: 0; } }
 
 figure.landscape {
   float: none; }

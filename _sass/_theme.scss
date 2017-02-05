@@ -74,6 +74,9 @@ figcaption {
 .portrait + .portrait {
   padding-left: 25px;
   padding-right: 0;
+  @include mq(narrow) {
+    padding-left: 0;
+  }
 }
 // .portrait + figure, .portrait + figure + figure {
 //   float: left;
