@@ -98,11 +98,11 @@
 #   category: seascape
 #   home: 1
 #   aspect: landscape
-- src: seascape21.jpg
-  alt: "Seascape 21: Albert Dock, Liverpool"
-  category: seascape
-  home: 0
-  aspect: landscape
+# - src: seascape21.jpg
+#   alt: "Seascape 21: Albert Dock, Liverpool"
+#   category: seascape
+#   home: 0
+#   aspect: landscape
 - src: seascape22.jpg
   alt: "Seascape 22: Marine Lake, West Kirby (135 film)"
   category: seascape
