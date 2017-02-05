@@ -7,7 +7,7 @@ layout: default
   </div>
     {% for pageimage in site.data.images %}
     {% if pageimage.category == page.category %}
-    <figure {% if pageimage.aspect == "portrait" %} class="portrait" {% endif %}>
+    <figure {% if pageimage.aspect == "portrait" %} class="portrait" {% endif %} {% if pageimage.aspect == "landscape" %} class="landscape" {% endif %}>
       <img src="{{ site.baseurl }}/assets/images/{{ pageimage.src }}" alt="{{ pageimage.alt }}" />
       <figcaption>{{ pageimage.alt }}</figcaption>
     </figure>

@@ -58,24 +58,37 @@ figcaption {
   margin-top: 10px;
 }
 .portrait {
+}
+
+.portrait {
   float: left;
   max-width: 50%;
-  padding-right: 50px;
+  padding-right: 25px;
+  padding-left: 0;
   @include mq(narrow) {
     float: none;
     max-width: 100%;
     padding-right: 0;
   }
 }
-.portrait + figure, .portrait + figure + figure {
-  float: left;
-  max-width: 50%;
+.portrait + .portrait {
+  padding-left: 25px;
+  padding-right: 0;
   @include mq(narrow) {
-    float: none;
-    max-width: 100%;
+    padding-left: 0;
   }
 }
-
+// .portrait + figure, .portrait + figure + figure {
+//   float: left;
+//   max-width: 50%;
+//   @include mq(narrow) {
+//     float: none;
+//     max-width: 100%;
+//   }
+// }
+figure.landscape {
+  float: none;
+}
 .site-footer {
   padding: 0 0 50px;
   clear: both;
