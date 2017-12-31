@@ -2,5 +2,5 @@
   url: /seascape/
 - text: Streetscape
   url: /streetscape/
-# - text: Personal
-#   url: /personal/
+- text: About
+  url: /about/
