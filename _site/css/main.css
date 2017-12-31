@@ -179,6 +179,9 @@ figure.landscape {
     .copyright span:after {
       content: none; } }
 
+.copyright span:last-of-type:after {
+  content: none; }
+
 .active:link, .active:visited {
   text-decoration: underline; }
 
@@ -212,3 +215,24 @@ figure.landscape {
 
   .hometest {
     padding: 0; } }
+.content {
+  margin: 100px auto 150px;
+  width: 70%;
+  padding: 1em;
+  font-size: 1.5em;
+  word-spacing: -1px; }
+  @media (max-width: 480px) {
+    .content {
+      margin: 100px 0;
+      padding: 0;
+      width: 100%; } }
+
+.content h1 {
+  font-weight: 700;
+  margin: 0 0 2em; }
+
+.content a:link, .content a:visited, .content a:hover, .content a:active {
+  color: #d00; }
+
+.content p {
+  margin: 0 0 1em; }

@@ -106,6 +106,9 @@ figure.landscape {
     content: none;
   }
 }
+.copyright span:last-of-type:after {
+  content: none;
+}
 .active:link, .active:visited {
   text-decoration: underline;
 }
