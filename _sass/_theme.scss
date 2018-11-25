@@ -92,6 +92,7 @@ figure.landscape {
 .site-footer {
   padding: 0 0 50px;
   clear: both;
+  text-align: center;
 }
 .site-footer span {
   @include mq(narrow) {
