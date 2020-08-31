@@ -47,7 +47,7 @@ a:hover, a:active { text-decoration: underline; color: #4f4f4f; }
 
 img { max-width: 100%; }
 
-h1 { margin-top: 115px; }
+h1 { margin-top: 75px; }
 
 @media (max-width: 480px) { h1 { margin-top: 50px; } }
 
@@ -95,10 +95,9 @@ figure.landscape { float: none; }
 
 .hometest div img { width: 100%; height: auto; max-height: 100px; }
 
-@media screen and (max-width: 400px) { .hometest figure { margin: 0; }
-  .hometest { padding: 0; } }
+@media screen and (max-width: 400px) { .hometest figure { margin: 0; } .hometest { padding: 0; } }
 
-.content { margin: 100px auto 150px; width: 70%; padding: 1em; font-size: 1.5em; word-spacing: -1px; }
+.content { margin: 50px auto 50px; width: 70%; padding: 1em; font-size: 1.5em; word-spacing: -1px; }
 
 @media (max-width: 480px) { .content { margin: 100px 0; padding: 0; width: 100%; } }
 
