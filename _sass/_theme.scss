@@ -3,7 +3,6 @@ body {
   line-height: $lh;
   color: $brandcolor01;
   background-color: white;
-
 }
 h1, h2 {
   font-size: 22px;
@@ -78,14 +77,6 @@ figcaption {
     padding-left: 0;
   }
 }
-// .portrait + figure, .portrait + figure + figure {
-//   float: left;
-//   max-width: 50%;
-//   @include mq(narrow) {
-//     float: none;
-//     max-width: 100%;
-//   }
-// }
 figure.landscape {
   float: none;
 }
