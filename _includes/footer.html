@@ -1,8 +1,11 @@
 <footer class="site-footer">
 <p class="copyright">
   <span>Martin Chapman Fromm &copy; {{ site.time | date: '%Y' }}</span>
-  <span>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
-  <span>Instagram: <a href="https://www.instagram.com/mcf/">@mcf</a> </span>
-  <!-- Twitter: <a href="https://twitter.com/mcf">@mcf</a> -->
-  </p>
+
+  {% if strapi.collections.socials.size > 0 %}
+  {% for social in strapi.collections.socials %}
+    <span>{{ social.name }} <a href="mailto:{{ social.url }}">{{ social.url }}</a></span>
+  {% endfor %}
+  {% endif %}
+</p>
 </footer>

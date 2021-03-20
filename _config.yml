@@ -16,3 +16,16 @@ twitter_username: mcf
 
 # Build settings
 markdown: kramdown
+
+# Plug-ins
+plugins:
+  - jekyll-feed
+  - jekyll-strapi
+
+# Strapi
+strapi:
+  # Your API endpoint (optional, default to http://localhost:1337)
+  endpoint: https://strapi-urv0.onrender.com
+  collections:
+    socials:
+      type: socials
