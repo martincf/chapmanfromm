@@ -2,9 +2,9 @@
 <p class="copyright">
   <span>Martin Chapman Fromm &copy; {{ site.time | date: '%Y' }}</span>
 
-  {% if strapi.collections.socials.size > 0 %}
-  {% for social in strapi.collections.socials %}
-    <span>{{ social.name }} <a href="mailto:{{ social.url }}">{{ social.url }}</a></span>
+  {% if strapi.collections.links.size > 0 %}
+  {% for link in strapi.collections.links %}
+    <span>{{ link.name }} <a href="mailto:{{ link.url }}">{{ link.url }}</a></span>
   {% endfor %}
   {% endif %}
 </p>
